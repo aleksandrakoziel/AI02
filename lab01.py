@@ -9,3 +9,11 @@ print(u.is_solved_queens(queens2))
 
 queens3 = [q.Queen(1,2), q.Queen(2,3), q.Queen(3,4), q.Queen(4,5), q.Queen(5,6), q.Queen(6,1)]
 print(u.is_solved_queens(queens3))
+
+square = [[1,2],[2,1]]
+print(square)
+print(u.is_solved_latin_square(square))
+
+square1 = [[2,1],[2,1]]
+print(square1)
+print(u.is_solved_latin_square(square1))
